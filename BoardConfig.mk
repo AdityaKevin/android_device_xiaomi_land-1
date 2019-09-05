@@ -74,6 +74,9 @@ TARGET_USERIMAGES_USE_F2FS := true
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
+# System-as-root
+BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
+
 # TWRP Configuration
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_EXTRA_LANGUAGES := true
